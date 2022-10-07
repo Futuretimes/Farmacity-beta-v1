@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="icon" href="./assets/logo.ico">
+    <title>Inicio</title>
+</head>
+<body>
+
+    <!-- header --> 
+    <header class="header">
+        <h1 class="header_title"><img class="header_logo" src="./images/logo.png" alt="logo">FARMACIA CITY</h1>
+        <img class="header_image" src="./images/banner.jpg" alt="header">
+    </header>
+
+    <!-- nav -->
+    <nav class="nav">
+        <a class="enlaces" href="#">Inicio</a>
+        <a class="enlaces" href="#">Contacto</a>
+        <a class="enlaces" href="#">Nosotros</a>
+    </nav>
+
+    <!-- main -->
+    <main class="main">
+        <article class="card">
+            <img class="card_image" src="./images/adermicina.jpg" alt="adermicina">
+            <h2 class="card_title">Adermicina</h2>
+            <p>$1200</p>
+        </article>
+        <article class="card">
+            <img class="card_image" src="./images/caramelos.jpg" alt="caramelos">
+            <h2 class="card_title">Caramelos</h2>
+            <p>$1550</p>
+        </article>
+        <article class="card">
+            <img class="card_image" src="./images/ibuprofeno.jpg" alt="ibuprofeno">
+            <h2 class="card_title">Ibuprofeno</h2>
+            <p>$200</p>
+        </article>
+        <article class="card">
+            <img class="card_image" src="./images/te-vick.jpg" alt="te-vick">
+            <h2 class="card_title">Te vick</h2>
+            <p>$350</p>
+        </article>
+    </main>
+
+    <aside class="aside">
+        <div class="aside_info">
+            <img class="main_image" src="./images/farmacia.jpg" alt="farmacia">
+        </div>
+        <div class="aside_info2">
+            <h3>MAS INFO para comprar en 3 pasos</h3>
+            <ol>
+                <li>Envianos tu email</li>
+                <li>Subscribite</li>
+                <li>Recibi todas las ofertas!</li>
+            </ol>
+        </div>
+    </aside>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>Mindhub MERN cohorts 35-36</p>
+        <form action="./pages/show_data.html" method="get">
+            <fieldset class="footer_form">
+                <label>Email:
+                    <input type="email" name="Email" placeholder="Inserte su mail aqui">
+                </label>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        <a class="footer_enlace" href="mailto:mindhub@gmail.com">mindhub@gmail.com</a>
+    </footer>
+
+</body>
+</html>
